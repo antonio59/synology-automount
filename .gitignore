@@ -1,0 +1,8 @@
+# Personal configuration - do not sync to git
+mount-synology.local.sh
+config.sh
+*.local.*
+
+# Logs
+*.log
+*.err
