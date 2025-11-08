@@ -4,11 +4,10 @@ Automatically mount your Synology NAS when Tailscale connects on macOS.
 
 ## Configuration
 
-**NAS IP (via Tailscale):** `YOUR_TAILSCALE_IP`
-
 ### Before You Start
 
 1. Edit `mount-synology.sh` and update these variables:
+   - `NAS_IP`: Your Synology NAS IP address via Tailscale
    - `SHARE_NAME`: Your Synology share name (default: `volume1`)
    - `USERNAME`: Your NAS username (default: your macOS username)
 
